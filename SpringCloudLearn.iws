@@ -1,122 +1,136 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0461774d-476a-4b3f-be99-ee417e0bab54" name="Default" comment="" />
+    <list default="true" id="0461774d-476a-4b3f-be99-ee417e0bab54" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/SpringCloudConfig/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringCloudService/DemoService/src/main/java/com/springcloud/demo/StartupApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringCloudService/DemoService/src/main/java/com/springcloud/demo/aop/LogAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringCloudService/DemoService/src/main/java/com/springcloud/demo/config/DataSourceConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringCloudService/DemoService/src/main/java/com/springcloud/demo/config/MetaObjectHandlerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringCloudService/DemoService/src/main/java/com/springcloud/demo/config/SwaggerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringCloudService/DemoService/src/main/java/com/springcloud/demo/controller/FrignTestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringCloudService/DemoService/src/main/java/com/springcloud/demo/controller/ProductController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringCloudService/DemoService/src/main/java/com/springcloud/demo/depend/DemoClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringCloudService/DemoService/src/main/java/com/springcloud/demo/depend/FrignClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringCloudService/DemoService/src/main/java/com/springcloud/demo/domain/eo/Component.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringCloudService/DemoService/src/main/java/com/springcloud/demo/domain/eo/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringCloudService/DemoService/src/main/java/com/springcloud/demo/domain/eo/SuperEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringCloudService/DemoService/src/main/java/com/springcloud/demo/extension/AppRuntimeEnv.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringCloudService/DemoService/src/main/java/com/springcloud/demo/extension/ApplicationException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringCloudService/DemoService/src/main/java/com/springcloud/demo/extension/MyControllerAdvice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringCloudService/DemoService/src/main/java/com/springcloud/demo/mapper/ProductMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringCloudService/DemoService/src/main/java/com/springcloud/demo/mapper/ProductMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringCloudService/DemoService/src/main/java/com/springcloud/demo/service/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringCloudService/DemoService/src/main/java/com/springcloud/demo/service/impl/ProductServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringCloudService/DemoService/src/main/resources/application-prod.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringCloudService/DemoService/src/main/resources/logback-spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringCloudService/SpringCloudService.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringCloudService/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringCloudConfig/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCloudConfig/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringCloudConfig/src/main/java/com/config/learn/DemoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCloudConfig/src/main/java/com/config/learn/ConfigApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringCloudConfig/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCloudConfig/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringCloudEureka/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCloudEureka/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringCloudEureka/src/main/java/com/eureka/learn/DemoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCloudEureka/src/main/java/com/eureka/learn/EurekaApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringCloudEureka/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringCloudEureka/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCloudEureka/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringCloudEureka/src/test/java/com/eureka/learn/DemoApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCloudEureka/src/test/java/com/eureka/learn/EurekaApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringCloudLearn.ipr" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCloudLearn.ipr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringCloudLearn.iws" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCloudLearn.iws" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/EurekaService/target/" />
     <ignored path="$PROJECT_DIR$/SpringCloudCommon/target/" />
     <ignored path="$PROJECT_DIR$/SpringCloudEureka/target/" />
     <ignored path="$PROJECT_DIR$/SpringCloudConfig/target/" />
+    <ignored path="$PROJECT_DIR$/SpringCloudServices/target/" />
+    <ignored path="$PROJECT_DIR$/SpringCloudService/target/" />
+    <ignored path="$PROJECT_DIR$/SpringCloudService/DemoService/target/" />
+    <ignored path="$PROJECT_DIR$/SpringCloudBus/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SpringCloudService/DemoService/src/main/java/com/springcloud/demo/StartupApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="9" column="25" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="25" />
+            <state relative-caret-position="300">
+              <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SpringCloudEureka/pom.xml">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SpringCloudService/DemoService/src/main/java/com/springcloud/demo/service/impl/ProductServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="10" selection-start-line="10" selection-end-line="15" selection-end-column="13" />
+            <state relative-caret-position="390">
+              <caret line="25" column="3" selection-start-line="25" selection-start-column="3" selection-end-line="25" selection-end-column="3" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SpringCloudConfig/pom.xml">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SpringCloudService/DemoService/src/main/java/com/springcloud/demo/controller/ProductController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+            <state relative-caret-position="2190">
+              <caret line="92" column="50" selection-start-line="92" selection-start-column="50" selection-end-line="92" selection-end-column="50" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DemoApplication.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SpringCloudConfig/src/main/java/com/config/learn/DemoApplication.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/SpringCloudService/DemoService/src/main/java/com/springcloud/demo/controller/FrignTestController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="8" column="30" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
+            <state relative-caret-position="303">
+              <caret line="23" column="34" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SpringCloudConfig/src/main/resources/application.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="1" column="37" selection-start-line="1" selection-start-column="37" selection-end-line="1" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DemoApplication.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SpringCloudEureka/src/main/java/com/eureka/learn/DemoApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DemoApplicationTests.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SpringCloudEureka/src/test/java/com/eureka/learn/DemoApplicationTests.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="127">
-              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SpringCloudEureka/src/main/resources/application.properties">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SpringCloudService/DemoService/src/main/java/com/springcloud/demo/mapper/ProductMapper.java">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="37" lean-forward="true" selection-start-column="24" selection-end-column="37" />
+              <caret column="35" selection-start-column="8" selection-end-column="35" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="bootstrap.yml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/SpringCloudEureka/src/main/resources/bootstrap.yml">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SpringCloudService/DemoService/src/main/resources/application.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="8" column="12" lean-forward="true" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="40" />
+            <state relative-caret-position="600">
+              <caret line="20" column="50" selection-start-line="20" selection-start-column="44" selection-end-line="20" selection-end-column="50" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SpringCloudCommon/pom.xml">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
   </component>
-  <component name="GradleLocalSettings">
-    <option name="projectSyncType">
-      <map>
-        <entry key="$USER_HOME$/leanProject" value="PREVIEW" />
-        <entry key="D:/projectnew/yh2" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../spring-framework-4.3.15.RELEASE" value="PREVIEW" />
-        <entry key="D:/yh" value="PREVIEW" />
-        <entry key="D:/yh2" value="PREVIEW" />
-        <entry key="D:/yh4" value="PREVIEW" />
-        <entry key="D:/yh5" value="PREVIEW" />
-      </map>
-    </option>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>mapper-locations</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -124,125 +138,81 @@
         <option value="$PROJECT_DIR$/EurekaService/pom.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/SpringCloudEureka/pom.xml" />
-        <option value="$PROJECT_DIR$/SpringCloudConfig/pom.xml" />
         <option value="$PROJECT_DIR$/SpringCloudConfig/src/main/java/com/config/learn/DemoApplication.java" />
         <option value="$PROJECT_DIR$/SpringCloudEureka/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/SpringCloudEureka/src/main/java/com/eureka/learn/DemoApplication.java" />
-        <option value="$PROJECT_DIR$/SpringCloudConfig/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/SpringCloudEureka/src/test/java/com/eureka/learn/DemoApplicationTests.java" />
+        <option value="$PROJECT_DIR$/SpringCloudEureka/src/test/java/com/eureka/learn/EurekaApplicationTests.java" />
+        <option value="$PROJECT_DIR$/SpringCloudServices/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringCloudService/DemoService/src/main/java/com/springcloud/demo/aop/LogAspect.java" />
+        <option value="$PROJECT_DIR$/SpringCloudService/DemoService/src/main/java/com/springcloud/demo/service/ProductService.java" />
+        <option value="$PROJECT_DIR$/SpringCloudEureka/src/main/java/com/eureka/learn/EurekaApplication.java" />
         <option value="$PROJECT_DIR$/SpringCloudEureka/src/main/resources/bootstrap.yml" />
+        <option value="$PROJECT_DIR$/SpringCloudConfig/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/SpringCloudConfig/src/main/java/com/config/learn/ConfigApplication.java" />
+        <option value="$PROJECT_DIR$/SpringCloudConfig/src/main/resources/bootstrap.yml" />
+        <option value="$PROJECT_DIR$/SpringCloudConfig/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringCloudService/DemoService/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/SpringCloudService/DemoService/src/main/java/com/springcloud/demo/depend/FrignClient.java" />
+        <option value="$PROJECT_DIR$/SpringCloudService/DemoService/src/main/java/com/springcloud/demo/extension/AppRuntimeEnv.java" />
+        <option value="$PROJECT_DIR$/SpringCloudService/DemoService/src/main/java/com/springcloud/demo/controller/ProductController.java" />
+        <option value="$PROJECT_DIR$/SpringCloudService/DemoService/src/main/java/com/springcloud/demo/mapper/ProductMapper.java" />
+        <option value="$PROJECT_DIR$/SpringCloudService/DemoService/src/test/java/com/springcloud/demo/DemoApplicationTests.java" />
+        <option value="$PROJECT_DIR$/SpringCloudService/DemoService/src/main/java/com/springcloud/demo/mapper/ProductMapper.xml" />
+        <option value="$PROJECT_DIR$/SpringCloudService/DemoService/src/main/java/com/springcloud/demo/service/impl/ProductServiceImpl.java" />
+        <option value="$PROJECT_DIR$/SpringCloudService/DemoService/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringCloudService/DemoService/src/main/java/com/springcloud/demo/StartupApplication.java" />
+        <option value="$PROJECT_DIR$/SpringCloudService/DemoService/src/main/java/com/springcloud/demo/controller/FrignTestController.java" />
       </list>
     </option>
   </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
-  </component>
   <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\maven\maven-repository" />
+        <option name="mavenHome" value="D:/maven/apache-maven-3.6.1" />
+        <option name="userSettingsFile" value="D:\maven\apache-maven-3.6.1\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
     <option name="importingSettings">
       <MavenImportingSettings>
         <option name="importAutomatically" value="true" />
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="NodePackageJsonFileManager">
-    <packageJsonPaths />
-  </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="422" />
-    <option name="y" value="187" />
-    <option name="width" value="273" />
-    <option name="height" value="184" />
+    <option name="x" value="260" />
+    <option name="y" value="20" />
+    <option name="width" value="1400" />
+    <option name="height" value="1000" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
+      <pane id="ProjectPane" />
+      <pane id="PackagesPane" />
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
           <expand>
             <path>
-              <item name="SpringCloudLearn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringCloudLearn" type="462c0819:PsiDirectoryNode" />
+              <item name="SpringCloudLearn" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
             </path>
             <path>
-              <item name="SpringCloudLearn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringCloudLearn" type="462c0819:PsiDirectoryNode" />
-              <item name="SpringCloudConfig" type="462c0819:PsiDirectoryNode" />
+              <item name="SpringCloudLearn" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="logs" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
-              <item name="SpringCloudLearn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringCloudLearn" type="462c0819:PsiDirectoryNode" />
-              <item name="SpringCloudConfig" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringCloudLearn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringCloudLearn" type="462c0819:PsiDirectoryNode" />
-              <item name="SpringCloudConfig" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringCloudLearn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringCloudLearn" type="462c0819:PsiDirectoryNode" />
-              <item name="SpringCloudConfig" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringCloudLearn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringCloudLearn" type="462c0819:PsiDirectoryNode" />
-              <item name="SpringCloudEureka" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringCloudLearn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringCloudLearn" type="462c0819:PsiDirectoryNode" />
-              <item name="SpringCloudEureka" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringCloudLearn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringCloudLearn" type="462c0819:PsiDirectoryNode" />
-              <item name="SpringCloudEureka" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringCloudLearn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringCloudLearn" type="462c0819:PsiDirectoryNode" />
-              <item name="SpringCloudEureka" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringCloudLearn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringCloudLearn" type="462c0819:PsiDirectoryNode" />
-              <item name="SpringCloudEureka" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="learn" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringCloudLearn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringCloudLearn" type="462c0819:PsiDirectoryNode" />
-              <item name="SpringCloudEureka" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="SpringCloudLearn" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="SpringCloudService" type="2674bda8:ScopeViewTreeModel$GroupNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -252,10 +222,22 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1561301640782" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
     <property name="show.run.dashboard.notification" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\SpringCloudStudy\SpringCloudConfig\src\main\resources" />
+      <recent name="G:\SpringCloudStudy\SpringCloudService\DemoService\src\main\java\com\springcloud\demo" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -269,64 +251,125 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.DemoApplication (2)">
+  <component name="RunManager" selected="Spring Boot.StartupApplication">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <module name="SpringCloudServices" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration name="DemoApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="SpringCloudEureka" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.eureka.learn.DemoApplication" />
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <module name="SpringCloudServices" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration name="DemoApplication (2)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="SpringCloudConfig" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.config.learn.DemoApplication" />
+    <configuration name="BusApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="SpringCloudBus" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.springcloud.bus.BusApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConfigApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="demo (1) (com.config)" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.config.learn.ConfigApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DemoApplication (3)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="DemoService" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.springcloud.demo.DemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="DemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="SpringEureka" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.enreka.learn.DemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration default="true" type="TestNG" factoryName="TestNG">
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+    <configuration name="EurekaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="demo (2) (com.eureka)" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.eureka.learn.EurekaApplication" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StartupApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="DemoService" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.springcloud.demo.StartupApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
       <properties />
       <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <list>
       <item itemvalue="Spring Boot.DemoApplication" />
-      <item itemvalue="Spring Boot.DemoApplication (1)" />
-      <item itemvalue="Spring Boot.DemoApplication (2)" />
+      <item itemvalue="Spring Boot.EurekaApplication" />
+      <item itemvalue="Spring Boot.ConfigApplication" />
+      <item itemvalue="Spring Boot.DemoApplication (3)" />
+      <item itemvalue="Spring Boot.StartupApplication" />
+      <item itemvalue="Spring Boot.BusApplication" />
     </list>
   </component>
   <component name="SvnConfiguration">
@@ -340,146 +383,407 @@
       <option name="presentableId" value="Default" />
       <updated>1559530906842</updated>
       <workItem from="1559530910090" duration="8562000" />
+      <workItem from="1559569252308" duration="973000" />
+      <workItem from="1559652776072" duration="599000" />
+      <workItem from="1560342096873" duration="1612000" />
+      <workItem from="1560657131558" duration="1323000" />
+      <workItem from="1560664977425" duration="5151000" />
+      <workItem from="1560687942068" duration="1721000" />
+      <workItem from="1560774936760" duration="598000" />
+      <workItem from="1560862542491" duration="689000" />
+      <workItem from="1560955848159" duration="1404000" />
+      <workItem from="1561206936589" duration="2038000" />
+      <workItem from="1561257267726" duration="10274000" />
+      <workItem from="1561301210397" duration="434000" />
+      <workItem from="1561301654955" duration="91000" />
+      <workItem from="1561301761735" duration="599000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8562000" />
+    <option name="totallyTimeSpent" value="36068000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Application Servers" />
-      <window_info anchor="right" id="Maven Projects" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info id="Capture Tool" />
-      <window_info id="Designer" />
-      <window_info anchor="right" id="Database" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1716418" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="UI Designer" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info id="Image Layers" />
-      <window_info anchor="bottom" id="Java Enterprise" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.34035656" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Spring" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24962178" />
-      <window_info anchor="right" id="Bean Validation" />
-      <window_info id="Web" side_tool="true" />
-      <window_info anchor="right" id="SciView" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.03253796" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4804772" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Application Servers" order="7" />
+      <window_info anchor="bottom" id="Spring" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.329718" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" />
+      <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="14" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Docker" order="15" show_stripe_button="false" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Maven Projects" order="5" />
+      <window_info anchor="right" id="SciView" order="6" />
+      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
+      <window_info anchor="right" id="Bean Validation" order="10" />
+      <window_info anchor="right" id="Maven" order="11" />
     </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1684435" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3394794" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Application Servers" order="7" />
+      <window_info anchor="bottom" id="Spring" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" />
+      <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="14" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Docker" order="15" show_stripe_button="false" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Maven Projects" order="5" />
+      <window_info anchor="right" id="SciView" order="6" />
+      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
+      <window_info anchor="right" id="Bean Validation" order="10" />
+      <window_info anchor="right" id="Maven" order="11" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
-  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/SpringCloudCommon/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/EurekaService/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/EurekaService/mvnw">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/EurekaService/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/EurekaService/mvnw" />
     <entry file="file://$USER_HOME$/.m2/repository/org/springframework/boot/spring-boot-starter-parent/2.1.5.RELEASE/spring-boot-starter-parent-2.1.5.RELEASE.pom">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-5057" />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/SpringCloudEureka/src/main/resources/application.properties" />
+    <entry file="file://$PROJECT_DIR$/SpringCloudEureka/src/test/java/com/eureka/learn/EurekaApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="9" column="35" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringCloudServices/mvnw.cmd" />
+    <entry file="file://$PROJECT_DIR$/SpringCloudServices/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/SpringCloudService/DemoService/src/main/java/com/springcloud/demo/DemoApplication.java" />
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="25" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="25" />
+        <state relative-caret-position="540">
+          <caret line="18" column="42" selection-end-line="24" selection-end-column="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SpringCloudEureka/src/test/java/com/eureka/learn/DemoApplicationTests.java">
+    <entry file="file://$PROJECT_DIR$/eureka-server-dev.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        <state relative-caret-position="30">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SpringCloudEureka/pom.xml">
+    <entry file="file://$PROJECT_DIR$/SpringCloudService/SpringCloudService.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringCloudService/DemoService/src/main/java/com/springcloud/demo/aop/LogAspect.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="10" selection-start-line="10" selection-end-line="15" selection-end-column="13" />
+        <state relative-caret-position="360">
+          <caret line="12" column="44" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="44" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SpringCloudConfig/pom.xml">
+    <entry file="file://$PROJECT_DIR$/SpringCloudService/DemoService/src/main/java/com/springcloud/demo/service/ProductService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        <state relative-caret-position="270">
+          <caret line="9" column="10" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SpringCloudConfig/src/main/java/com/config/learn/DemoApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="8" column="30" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/SpringCloudCommon/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/SpringCloudEureka/src/main/java/com/eureka/learn/DemoApplication.java">
+    <entry file="file://$PROJECT_DIR$/SpringCloudEureka/src/main/java/com/eureka/learn/EurekaApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SpringCloudConfig/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" column="37" selection-start-line="1" selection-start-column="37" selection-end-line="1" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SpringCloudEureka/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="37" lean-forward="true" selection-start-column="24" selection-end-column="37" />
+        <state relative-caret-position="330">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/SpringCloudEureka/src/main/resources/bootstrap.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="12" lean-forward="true" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="40" />
+        <state relative-caret-position="390">
+          <caret line="13" column="49" selection-start-line="13" selection-start-column="49" selection-end-line="13" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringCloudConfig/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="4" column="26" selection-start-column="1" selection-end-line="4" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringCloudConfig/src/main/java/com/config/learn/ConfigApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="9" column="19" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringCloudConfig/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="3" column="40" selection-start-line="3" selection-start-column="40" selection-end-line="3" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringCloudEureka/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="29" column="5" selection-start-line="29" selection-start-column="5" selection-end-line="31" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringCloudConfig/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="34" column="71" selection-start-line="34" selection-start-column="71" selection-end-line="34" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringCloudService/DemoService/src/main/java/com/springcloud/demo/depend/FrignClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringCloudService/DemoService/src/main/java/com/springcloud/demo/extension/AppRuntimeEnv.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-568">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringCloudService/DemoService/src/test/java/com/springcloud/demo/DemoApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="16" column="2" selection-start-line="16" selection-start-column="2" selection-end-line="16" selection-end-column="2" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringCloudService/DemoService/mvnw.cmd">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringCloudService/DemoService/src/main/java/com/springcloud/demo/domain/eo/Product.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="38" selection-start-column="8" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringCloudService/DemoService/src/main/java/com/springcloud/demo/mapper/ProductMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="7" column="72" selection-start-line="7" selection-start-column="72" selection-end-line="7" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringCloudService/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="11" column="31" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringCloudService/DemoService/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3270">
+          <caret line="11" column="35" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringCloudGateWay/SpringCloudGateWay11.iml" />
+    <entry file="file://$PROJECT_DIR$/SpringCloudService/DemoService/src/main/java/com/springcloud/demo/StartupApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringCloudService/DemoService/src/main/java/com/springcloud/demo/service/impl/ProductServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="25" column="3" selection-start-line="25" selection-start-column="3" selection-end-line="25" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringCloudService/DemoService/src/main/java/com/springcloud/demo/controller/ProductController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2190">
+          <caret line="92" column="50" selection-start-line="92" selection-start-column="50" selection-end-line="92" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringCloudService/DemoService/src/main/java/com/springcloud/demo/mapper/ProductMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="35" selection-start-column="8" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringCloudService/DemoService/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="20" column="50" selection-start-line="20" selection-start-column="44" selection-end-line="20" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringCloudService/DemoService/src/main/java/com/springcloud/demo/controller/FrignTestController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="23" column="34" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
   </component>
   <component name="masterDetails">
     <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>SpringCloudGateWay</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="ProjectJDKs.UI">
         <settings>
           <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: antlr:antlr:2.7.7</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

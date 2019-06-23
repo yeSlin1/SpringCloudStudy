@@ -1,0 +1,298 @@
+2019-06-23 14:56:28.393 INFO  [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker: - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$8dca31d8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-23 14:56:29.620 INFO  [main] c.s.demo.StartupApplication: - The following profiles are active: prod
+2019-06-23 14:56:30.121 WARN  [main] o.m.s.mapper.ClassPathMapperScanner: - No MyBatis mapper was found in '[com.deepexi.b.mapper]' package. Please check your configuration.
+2019-06-23 14:56:30.223 WARN  [main] o.m.s.mapper.ClassPathMapperScanner: - No MyBatis mapper was found in '[com.springcloud.demo]' package. Please check your configuration.
+2019-06-23 14:56:30.231 WARN  [main] o.m.s.mapper.ClassPathMapperScanner: - No MyBatis mapper was found in '[com.springcloud.demo]' package. Please check your configuration.
+2019-06-23 14:56:30.393 INFO  [main] o.s.cloud.context.scope.GenericScope: - BeanFactory id=8687a2d3-0918-37ec-a62a-d1e132833d17
+2019-06-23 14:56:30.404 INFO  [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker: - Bean 'com.springcloud.demo.depend.DemoClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-23 14:56:30.405 INFO  [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker: - Bean 'com.springcloud.demo.depend.FrignClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-23 14:56:30.483 INFO  [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker: - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$71b02edb] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-23 14:56:30.688 INFO  [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker: - Bean 'spring.cloud.sentinel-org.springframework.cloud.alibaba.sentinel.SentinelProperties' of type [org.springframework.cloud.alibaba.sentinel.SentinelProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-23 14:56:30.693 INFO  [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker: - Bean 'org.springframework.cloud.alibaba.sentinel.custom.SentinelAutoConfiguration' of type [org.springframework.cloud.alibaba.sentinel.custom.SentinelAutoConfiguration$$EnhancerBySpringCGLIB$$2f1afafe] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-23 14:56:30.705 INFO  [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker: - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$8dca31d8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-23 14:56:30.982 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer: - Tomcat initialized with port(s): 8083 (http)
+2019-06-23 14:56:30.996 INFO  [main] o.a.catalina.core.StandardService: - Starting service [Tomcat]
+2019-06-23 14:56:30.997 INFO  [main] o.a.catalina.core.StandardEngine: - Starting Servlet engine: [Apache Tomcat/9.0.19]
+2019-06-23 14:56:31.100 INFO  [main] o.a.c.c.C.[.[.[/deepexi-service-b]: - Initializing Spring embedded WebApplicationContext
+2019-06-23 14:56:31.100 INFO  [main] o.s.web.context.ContextLoader: - Root WebApplicationContext: initialization completed in 1471 ms
+2019-06-23 14:56:31.109 INFO  [main] o.s.c.a.s.SentinelWebAutoConfiguration: - [Sentinel Starter] register Sentinel with urlPatterns: [/*].
+2019-06-23 14:56:31.492 WARN  [main] o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext: - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'productController': Unsatisfied dependency expressed through field 'productService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'productServiceImpl': Unsatisfied dependency expressed through field 'productMapper'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.springcloud.demo.mapper.ProductMapper' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2019-06-23 14:56:31.494 INFO  [main] o.a.catalina.core.StandardService: - Stopping service [Tomcat]
+2019-06-23 14:56:31.521 WARN  [main] o.a.c.loader.WebappClassLoaderBase: - The web application [deepexi-service-b] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:143)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:43)
+2019-06-23 14:56:31.527 INFO  [main] o.s.b.a.l.ConditionEvaluationReportLoggingListener: - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-06-23 14:56:31.679 ERROR [main] o.s.b.d.LoggingFailureAnalysisReporter: - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field productMapper in com.springcloud.demo.service.impl.ProductServiceImpl required a bean of type 'com.springcloud.demo.mapper.ProductMapper' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.springcloud.demo.mapper.ProductMapper' in your configuration.
+
+2019-06-23 22:08:33.870 INFO  [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker: - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$6aed79f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-23 22:08:35.059 INFO  [main] c.s.demo.StartupApplication: - The following profiles are active: prod
+2019-06-23 22:08:35.417 WARN  [main] o.m.s.mapper.ClassPathMapperScanner: - No MyBatis mapper was found in '[com.deepexi.b.mapper]' package. Please check your configuration.
+2019-06-23 22:08:35.505 WARN  [main] o.m.s.mapper.ClassPathMapperScanner: - No MyBatis mapper was found in '[com.springcloud.demo]' package. Please check your configuration.
+2019-06-23 22:08:35.513 WARN  [main] o.m.s.mapper.ClassPathMapperScanner: - No MyBatis mapper was found in '[com.springcloud.demo]' package. Please check your configuration.
+2019-06-23 22:08:35.656 INFO  [main] o.s.cloud.context.scope.GenericScope: - BeanFactory id=8687a2d3-0918-37ec-a62a-d1e132833d17
+2019-06-23 22:08:35.667 INFO  [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker: - Bean 'com.springcloud.demo.depend.DemoClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-23 22:08:35.668 INFO  [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker: - Bean 'com.springcloud.demo.depend.FrignClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-23 22:08:35.726 INFO  [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker: - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$ea94d4a2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-23 22:08:35.808 INFO  [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker: - Bean 'spring.cloud.sentinel-org.springframework.cloud.alibaba.sentinel.SentinelProperties' of type [org.springframework.cloud.alibaba.sentinel.SentinelProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-23 22:08:35.814 INFO  [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker: - Bean 'org.springframework.cloud.alibaba.sentinel.custom.SentinelAutoConfiguration' of type [org.springframework.cloud.alibaba.sentinel.custom.SentinelAutoConfiguration$$EnhancerBySpringCGLIB$$a7ffa0c5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-23 22:08:35.825 INFO  [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker: - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$6aed79f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-23 22:08:36.090 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer: - Tomcat initialized with port(s): 8083 (http)
+2019-06-23 22:08:36.105 INFO  [main] o.a.catalina.core.StandardService: - Starting service [Tomcat]
+2019-06-23 22:08:36.105 INFO  [main] o.a.catalina.core.StandardEngine: - Starting Servlet engine: [Apache Tomcat/9.0.19]
+2019-06-23 22:08:36.202 INFO  [main] o.a.c.c.C.[.[.[/deepexi-service-b]: - Initializing Spring embedded WebApplicationContext
+2019-06-23 22:08:36.202 INFO  [main] o.s.web.context.ContextLoader: - Root WebApplicationContext: initialization completed in 1134 ms
+2019-06-23 22:08:36.211 INFO  [main] o.s.c.a.s.SentinelWebAutoConfiguration: - [Sentinel Starter] register Sentinel with urlPatterns: [/*].
+2019-06-23 22:08:36.550 WARN  [main] o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext: - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'productController': Unsatisfied dependency expressed through field 'productService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'productServiceImpl': Unsatisfied dependency expressed through field 'productMapper'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.springcloud.demo.mapper.ProductMapper' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2019-06-23 22:08:36.552 INFO  [main] o.a.catalina.core.StandardService: - Stopping service [Tomcat]
+2019-06-23 22:08:36.556 WARN  [main] o.a.c.loader.WebappClassLoaderBase: - The web application [deepexi-service-b] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:143)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:43)
+2019-06-23 22:08:36.562 INFO  [main] o.s.b.a.l.ConditionEvaluationReportLoggingListener: - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-06-23 22:08:36.653 ERROR [main] o.s.b.d.LoggingFailureAnalysisReporter: - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field productMapper in com.springcloud.demo.service.impl.ProductServiceImpl required a bean of type 'com.springcloud.demo.mapper.ProductMapper' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.springcloud.demo.mapper.ProductMapper' in your configuration.
+
+2019-06-23 22:10:17.720 INFO  [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker: - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$acb146b4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-23 22:10:18.902 INFO  [main] c.s.demo.StartupApplication: - The following profiles are active: prod
+2019-06-23 22:10:19.257 WARN  [main] o.m.s.mapper.ClassPathMapperScanner: - No MyBatis mapper was found in '[com.deepexi.b.mapper]' package. Please check your configuration.
+2019-06-23 22:10:19.335 WARN  [main] o.m.s.mapper.ClassPathMapperScanner: - No MyBatis mapper was found in '[com.springcloud.demo]' package. Please check your configuration.
+2019-06-23 22:10:19.342 WARN  [main] o.m.s.mapper.ClassPathMapperScanner: - No MyBatis mapper was found in '[com.springcloud.demo]' package. Please check your configuration.
+2019-06-23 22:10:19.491 INFO  [main] o.s.cloud.context.scope.GenericScope: - BeanFactory id=8687a2d3-0918-37ec-a62a-d1e132833d17
+2019-06-23 22:10:19.502 INFO  [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker: - Bean 'com.springcloud.demo.depend.DemoClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-23 22:10:19.503 INFO  [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker: - Bean 'com.springcloud.demo.depend.FrignClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-23 22:10:19.560 INFO  [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker: - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$909743b7] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-23 22:10:19.640 INFO  [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker: - Bean 'spring.cloud.sentinel-org.springframework.cloud.alibaba.sentinel.SentinelProperties' of type [org.springframework.cloud.alibaba.sentinel.SentinelProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-23 22:10:19.645 INFO  [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker: - Bean 'org.springframework.cloud.alibaba.sentinel.custom.SentinelAutoConfiguration' of type [org.springframework.cloud.alibaba.sentinel.custom.SentinelAutoConfiguration$$EnhancerBySpringCGLIB$$4e020fda] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-23 22:10:19.656 INFO  [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker: - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$acb146b4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-23 22:10:19.922 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer: - Tomcat initialized with port(s): 8083 (http)
+2019-06-23 22:10:19.936 INFO  [main] o.a.catalina.core.StandardService: - Starting service [Tomcat]
+2019-06-23 22:10:19.936 INFO  [main] o.a.catalina.core.StandardEngine: - Starting Servlet engine: [Apache Tomcat/9.0.19]
+2019-06-23 22:10:20.033 INFO  [main] o.a.c.c.C.[.[.[/deepexi-service-b]: - Initializing Spring embedded WebApplicationContext
+2019-06-23 22:10:20.033 INFO  [main] o.s.web.context.ContextLoader: - Root WebApplicationContext: initialization completed in 1122 ms
+2019-06-23 22:10:20.041 INFO  [main] o.s.c.a.s.SentinelWebAutoConfiguration: - [Sentinel Starter] register Sentinel with urlPatterns: [/*].
+2019-06-23 22:10:20.374 WARN  [main] o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext: - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'productController': Unsatisfied dependency expressed through field 'productService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'productServiceImpl': Unsatisfied dependency expressed through field 'productMapper'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.springcloud.demo.mapper.ProductMapper' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2019-06-23 22:10:20.375 INFO  [main] o.a.catalina.core.StandardService: - Stopping service [Tomcat]
+2019-06-23 22:10:20.381 WARN  [main] o.a.c.loader.WebappClassLoaderBase: - The web application [deepexi-service-b] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:143)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:43)
+2019-06-23 22:10:20.386 INFO  [main] o.s.b.a.l.ConditionEvaluationReportLoggingListener: - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-06-23 22:10:20.476 ERROR [main] o.s.b.d.LoggingFailureAnalysisReporter: - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field productMapper in com.springcloud.demo.service.impl.ProductServiceImpl required a bean of type 'com.springcloud.demo.mapper.ProductMapper' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.springcloud.demo.mapper.ProductMapper' in your configuration.
+
+2019-06-23 22:12:14.709 INFO  [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker: - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$c0793dfc] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-23 22:12:15.895 INFO  [main] c.s.demo.StartupApplication: - The following profiles are active: prod
+2019-06-23 22:12:16.254 WARN  [main] o.m.s.mapper.ClassPathMapperScanner: - No MyBatis mapper was found in '[com.deepexi.b.mapper]' package. Please check your configuration.
+2019-06-23 22:12:16.292 WARN  [main] o.m.s.mapper.ClassPathMapperScanner: - No MyBatis mapper was found in '[com.*.mapper]' package. Please check your configuration.
+2019-06-23 22:12:16.352 WARN  [main] o.m.s.mapper.ClassPathMapperScanner: - No MyBatis mapper was found in '[com.springcloud.demo]' package. Please check your configuration.
+2019-06-23 22:12:16.360 WARN  [main] o.m.s.mapper.ClassPathMapperScanner: - No MyBatis mapper was found in '[com.springcloud.demo]' package. Please check your configuration.
+2019-06-23 22:12:16.500 INFO  [main] o.s.cloud.context.scope.GenericScope: - BeanFactory id=8687a2d3-0918-37ec-a62a-d1e132833d17
+2019-06-23 22:12:16.512 INFO  [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker: - Bean 'com.springcloud.demo.depend.DemoClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-23 22:12:16.513 INFO  [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker: - Bean 'com.springcloud.demo.depend.FrignClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-23 22:12:16.569 INFO  [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker: - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$a45f3aff] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-23 22:12:16.650 INFO  [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker: - Bean 'spring.cloud.sentinel-org.springframework.cloud.alibaba.sentinel.SentinelProperties' of type [org.springframework.cloud.alibaba.sentinel.SentinelProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-23 22:12:16.655 INFO  [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker: - Bean 'org.springframework.cloud.alibaba.sentinel.custom.SentinelAutoConfiguration' of type [org.springframework.cloud.alibaba.sentinel.custom.SentinelAutoConfiguration$$EnhancerBySpringCGLIB$$61ca0722] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-23 22:12:16.667 INFO  [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker: - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$c0793dfc] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-23 22:12:16.929 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer: - Tomcat initialized with port(s): 8083 (http)
+2019-06-23 22:12:16.943 INFO  [main] o.a.catalina.core.StandardService: - Starting service [Tomcat]
+2019-06-23 22:12:16.943 INFO  [main] o.a.catalina.core.StandardEngine: - Starting Servlet engine: [Apache Tomcat/9.0.19]
+2019-06-23 22:12:17.041 INFO  [main] o.a.c.c.C.[.[.[/deepexi-service-b]: - Initializing Spring embedded WebApplicationContext
+2019-06-23 22:12:17.041 INFO  [main] o.s.web.context.ContextLoader: - Root WebApplicationContext: initialization completed in 1135 ms
+2019-06-23 22:12:17.050 INFO  [main] o.s.c.a.s.SentinelWebAutoConfiguration: - [Sentinel Starter] register Sentinel with urlPatterns: [/*].
+2019-06-23 22:12:17.393 WARN  [main] o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext: - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'productController': Unsatisfied dependency expressed through field 'productService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'productServiceImpl': Unsatisfied dependency expressed through field 'productMapper'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.springcloud.demo.mapper.ProductMapper' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2019-06-23 22:12:17.395 INFO  [main] o.a.catalina.core.StandardService: - Stopping service [Tomcat]
+2019-06-23 22:12:17.400 WARN  [main] o.a.c.loader.WebappClassLoaderBase: - The web application [deepexi-service-b] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:143)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:43)
+2019-06-23 22:12:17.405 INFO  [main] o.s.b.a.l.ConditionEvaluationReportLoggingListener: - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-06-23 22:12:17.494 ERROR [main] o.s.b.d.LoggingFailureAnalysisReporter: - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field productMapper in com.springcloud.demo.service.impl.ProductServiceImpl required a bean of type 'com.springcloud.demo.mapper.ProductMapper' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.springcloud.demo.mapper.ProductMapper' in your configuration.
+
+2019-06-23 22:16:21.264 INFO  [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker: - Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$ceea1c8a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-23 22:16:22.450 INFO  [main] c.s.demo.StartupApplication: - The following profiles are active: prod
+2019-06-23 22:16:22.803 WARN  [main] o.m.s.mapper.ClassPathMapperScanner: - No MyBatis mapper was found in '[com.deepexi.b.mapper]' package. Please check your configuration.
+2019-06-23 22:16:22.841 WARN  [main] o.m.s.mapper.ClassPathMapperScanner: - No MyBatis mapper was found in '[com.*.mapper]' package. Please check your configuration.
+2019-06-23 22:16:22.904 WARN  [main] o.m.s.mapper.ClassPathMapperScanner: - No MyBatis mapper was found in '[com.springcloud.demo]' package. Please check your configuration.
+2019-06-23 22:16:22.911 WARN  [main] o.m.s.mapper.ClassPathMapperScanner: - No MyBatis mapper was found in '[com.springcloud.demo]' package. Please check your configuration.
+2019-06-23 22:16:23.064 INFO  [main] o.s.cloud.context.scope.GenericScope: - BeanFactory id=c0619b74-4403-3f54-bfac-ba4b22db478c
+2019-06-23 22:16:23.125 INFO  [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker: - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$b2d0198d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-23 22:16:23.200 INFO  [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker: - Bean 'spring.cloud.sentinel-org.springframework.cloud.alibaba.sentinel.SentinelProperties' of type [org.springframework.cloud.alibaba.sentinel.SentinelProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-23 22:16:23.205 INFO  [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker: - Bean 'org.springframework.cloud.alibaba.sentinel.custom.SentinelAutoConfiguration' of type [org.springframework.cloud.alibaba.sentinel.custom.SentinelAutoConfiguration$$EnhancerBySpringCGLIB$$703ae5b0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-23 22:16:23.216 INFO  [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker: - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$ceea1c8a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-23 22:16:23.489 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer: - Tomcat initialized with port(s): 8083 (http)
+2019-06-23 22:16:23.506 INFO  [main] o.a.catalina.core.StandardService: - Starting service [Tomcat]
+2019-06-23 22:16:23.506 INFO  [main] o.a.catalina.core.StandardEngine: - Starting Servlet engine: [Apache Tomcat/9.0.19]
+2019-06-23 22:16:23.608 INFO  [main] o.a.c.c.C.[.[.[/deepexi-service-b]: - Initializing Spring embedded WebApplicationContext
+2019-06-23 22:16:23.608 INFO  [main] o.s.web.context.ContextLoader: - Root WebApplicationContext: initialization completed in 1148 ms
+2019-06-23 22:16:23.618 INFO  [main] o.s.c.a.s.SentinelWebAutoConfiguration: - [Sentinel Starter] register Sentinel with urlPatterns: [/*].
+2019-06-23 22:16:23.912 WARN  [main] o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext: - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'productController': Unsatisfied dependency expressed through field 'productService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'productServiceImpl': Unsatisfied dependency expressed through field 'productMapper'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.springcloud.demo.mapper.ProductMapper' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2019-06-23 22:16:23.914 INFO  [main] o.a.catalina.core.StandardService: - Stopping service [Tomcat]
+2019-06-23 22:16:23.920 WARN  [main] o.a.c.loader.WebappClassLoaderBase: - The web application [deepexi-service-b] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:143)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:43)
+2019-06-23 22:16:23.925 INFO  [main] o.s.b.a.l.ConditionEvaluationReportLoggingListener: - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-06-23 22:16:24.024 ERROR [main] o.s.b.d.LoggingFailureAnalysisReporter: - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field productMapper in com.springcloud.demo.service.impl.ProductServiceImpl required a bean of type 'com.springcloud.demo.mapper.ProductMapper' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.springcloud.demo.mapper.ProductMapper' in your configuration.
+
+2019-06-23 22:26:56.133 INFO  [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker: - Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$40253b5d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-23 22:26:57.316 INFO  [main] c.s.demo.StartupApplication: - The following profiles are active: prod
+2019-06-23 22:26:57.672 WARN  [main] o.m.s.mapper.ClassPathMapperScanner: - No MyBatis mapper was found in '[com.deepexi.b.mapper]' package. Please check your configuration.
+2019-06-23 22:26:57.901 INFO  [main] o.s.cloud.context.scope.GenericScope: - BeanFactory id=f92b9e9b-4a2c-3fc9-b054-6c6b6f2a72e7
+2019-06-23 22:26:57.963 INFO  [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker: - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$240b3860] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-23 22:26:58.038 INFO  [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker: - Bean 'spring.cloud.sentinel-org.springframework.cloud.alibaba.sentinel.SentinelProperties' of type [org.springframework.cloud.alibaba.sentinel.SentinelProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-23 22:26:58.043 INFO  [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker: - Bean 'org.springframework.cloud.alibaba.sentinel.custom.SentinelAutoConfiguration' of type [org.springframework.cloud.alibaba.sentinel.custom.SentinelAutoConfiguration$$EnhancerBySpringCGLIB$$e1760483] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-23 22:26:58.054 INFO  [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker: - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$40253b5d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-23 22:26:58.326 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer: - Tomcat initialized with port(s): 8083 (http)
+2019-06-23 22:26:58.340 INFO  [main] o.a.catalina.core.StandardService: - Starting service [Tomcat]
+2019-06-23 22:26:58.340 INFO  [main] o.a.catalina.core.StandardEngine: - Starting Servlet engine: [Apache Tomcat/9.0.19]
+2019-06-23 22:26:58.438 INFO  [main] o.a.c.c.C.[.[.[/deepexi-service-b]: - Initializing Spring embedded WebApplicationContext
+2019-06-23 22:26:58.439 INFO  [main] o.s.web.context.ContextLoader: - Root WebApplicationContext: initialization completed in 1113 ms
+2019-06-23 22:26:58.447 INFO  [main] o.s.c.a.s.SentinelWebAutoConfiguration: - [Sentinel Starter] register Sentinel with urlPatterns: [/*].
+2019-06-23 22:26:59.184 INFO  [main] com.zaxxer.hikari.HikariDataSource: - HikariPool-1 - Starting...
+2019-06-23 22:26:59.709 INFO  [main] com.zaxxer.hikari.HikariDataSource: - HikariPool-1 - Start completed.
+2019-06-23 22:27:00.498 INFO  [main] s.d.s.w.PropertySourcedRequestMappingHandlerMapping: - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-06-23 22:27:00.537 WARN  [main] c.n.c.sources.URLConfigurationSource: - No URLs will be polled as dynamic configuration sources.
+2019-06-23 22:27:00.537 INFO  [main] c.n.c.sources.URLConfigurationSource: - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-06-23 22:27:00.540 WARN  [main] c.n.c.sources.URLConfigurationSource: - No URLs will be polled as dynamic configuration sources.
+2019-06-23 22:27:00.540 INFO  [main] c.n.c.sources.URLConfigurationSource: - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-06-23 22:27:00.723 INFO  [main] o.s.s.c.ThreadPoolTaskExecutor: - Initializing ExecutorService 'applicationTaskExecutor'
+2019-06-23 22:27:02.150 INFO  [main] o.s.cloud.commons.util.InetUtils: - Cannot determine local hostname
+2019-06-23 22:27:03.316 INFO  [main] o.s.cloud.commons.util.InetUtils: - Cannot determine local hostname
+2019-06-23 22:27:03.470 INFO  [main] o.s.c.n.eureka.InstanceInfoFactory: - Setting initial instance status as: STARTING
+2019-06-23 22:27:03.501 INFO  [main] c.netflix.discovery.DiscoveryClient: - Initializing Eureka in region us-east-1
+2019-06-23 22:27:03.660 INFO  [main] c.n.d.p.DiscoveryJerseyProvider: - Using JSON encoding codec LegacyJacksonJson
+2019-06-23 22:27:03.660 INFO  [main] c.n.d.p.DiscoveryJerseyProvider: - Using JSON decoding codec LegacyJacksonJson
+2019-06-23 22:27:03.727 INFO  [main] c.n.d.p.DiscoveryJerseyProvider: - Using XML encoding codec XStreamXml
+2019-06-23 22:27:03.727 INFO  [main] c.n.d.p.DiscoveryJerseyProvider: - Using XML decoding codec XStreamXml
+2019-06-23 22:27:03.906 INFO  [main] c.n.d.s.r.aws.ConfigClusterResolver: - Resolving eureka endpoints via configuration
+2019-06-23 22:27:03.961 INFO  [main] c.netflix.discovery.DiscoveryClient: - Disable delta property : false
+2019-06-23 22:27:03.961 INFO  [main] c.netflix.discovery.DiscoveryClient: - Single vip registry refresh property : null
+2019-06-23 22:27:03.962 INFO  [main] c.netflix.discovery.DiscoveryClient: - Force full registry fetch : false
+2019-06-23 22:27:03.962 INFO  [main] c.netflix.discovery.DiscoveryClient: - Application is null : false
+2019-06-23 22:27:03.962 INFO  [main] c.netflix.discovery.DiscoveryClient: - Registered Applications size is zero : true
+2019-06-23 22:27:03.962 INFO  [main] c.netflix.discovery.DiscoveryClient: - Application version is -1: true
+2019-06-23 22:27:03.962 INFO  [main] c.netflix.discovery.DiscoveryClient: - Getting all instance registry info from the eureka server
+2019-06-23 22:27:04.163 INFO  [main] c.netflix.discovery.DiscoveryClient: - The response status is 200
+2019-06-23 22:27:04.164 INFO  [main] c.netflix.discovery.DiscoveryClient: - Starting heartbeat executor: renew interval is: 30
+2019-06-23 22:27:04.165 INFO  [main] c.n.discovery.InstanceInfoReplicator: - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2019-06-23 22:27:04.167 INFO  [main] c.netflix.discovery.DiscoveryClient: - Discovery Client initialized at timestamp 1561300024167 with initial instances count: 0
+2019-06-23 22:27:04.172 INFO  [main] o.s.c.n.e.s.EurekaServiceRegistry: - Registering application deepexi-service-b-provider with eureka with status UP
+2019-06-23 22:27:04.173 INFO  [main] c.netflix.discovery.DiscoveryClient: - Saw local status change event StatusChangeEvent [timestamp=1561300024173, current=UP, previous=STARTING]
+2019-06-23 22:27:04.174 INFO  [nfoReplicator-0] c.netflix.discovery.DiscoveryClient: - DiscoveryClient_DEEPEXI-SERVICE-B-PROVIDER/localhost:deepexi-service-b-provider:8083: registering service...
+2019-06-23 22:27:04.176 INFO  [main] s.d.s.w.p.DocumentationPluginsBootstrapper: - Context refreshed
+2019-06-23 22:27:04.193 INFO  [main] s.d.s.w.p.DocumentationPluginsBootstrapper: - Found 1 custom documentation plugin(s)
+2019-06-23 22:27:04.221 INFO  [main] s.d.s.w.s.ApiListingReferenceScanner: - Scanning for api listing references
+2019-06-23 22:27:04.257 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer: - Tomcat started on port(s): 8083 (http) with context path '/deepexi-service-b'
+2019-06-23 22:27:04.259 INFO  [main] c.s.demo.StartupApplication: - Started StartupApplication in 9.642 seconds (JVM running for 10.349)
+2019-06-23 22:27:04.278 INFO  [nfoReplicator-0] c.netflix.discovery.DiscoveryClient: - DiscoveryClient_DEEPEXI-SERVICE-B-PROVIDER/localhost:deepexi-service-b-provider:8083 - registration status: 204
+2019-06-23 22:27:34.164 INFO  [freshExecutor-0] c.netflix.discovery.DiscoveryClient: - Disable delta property : false
+2019-06-23 22:27:34.165 INFO  [freshExecutor-0] c.netflix.discovery.DiscoveryClient: - Single vip registry refresh property : null
+2019-06-23 22:27:34.165 INFO  [freshExecutor-0] c.netflix.discovery.DiscoveryClient: - Force full registry fetch : false
+2019-06-23 22:27:34.165 INFO  [freshExecutor-0] c.netflix.discovery.DiscoveryClient: - Application is null : false
+2019-06-23 22:27:34.165 INFO  [freshExecutor-0] c.netflix.discovery.DiscoveryClient: - Registered Applications size is zero : true
+2019-06-23 22:27:34.165 INFO  [freshExecutor-0] c.netflix.discovery.DiscoveryClient: - Application version is -1: false
+2019-06-23 22:27:34.166 INFO  [freshExecutor-0] c.netflix.discovery.DiscoveryClient: - Getting all instance registry info from the eureka server
+2019-06-23 22:27:34.195 INFO  [freshExecutor-0] c.netflix.discovery.DiscoveryClient: - The response status is 200
+2019-06-23 22:32:03.964 INFO  [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver: - Resolving eureka endpoints via configuration
+2019-06-23 22:32:53.427 INFO  [nio-8083-exec-1] o.a.c.c.C.[.[.[/deepexi-service-b]: - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-06-23 22:32:53.427 INFO  [nio-8083-exec-1] o.s.web.servlet.DispatcherServlet: - Initializing Servlet 'dispatcherServlet'
+2019-06-23 22:32:53.443 INFO  [nio-8083-exec-1] o.s.web.servlet.DispatcherServlet: - Completed initialization in 16 ms
+2019-06-23 22:32:53.710 INFO  [nio-8083-exec-1] c.s.d.controller.FrignTestController: - 远程调用成功: Hello World!!
+2019-06-23 22:32:53.835 INFO  [nio-8083-exec-1] c.n.config.ChainedDynamicProperty: - Flipping property: deepexi-service-a-provider.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2019-06-23 22:32:53.841 INFO  [nio-8083-exec-1] c.n.u.c.ShutdownEnabledTimer: - Shutdown hook installed for: NFLoadBalancer-PingTimer-deepexi-service-a-provider
+2019-06-23 22:32:53.844 INFO  [nio-8083-exec-1] c.n.loadbalancer.BaseLoadBalancer: - Client: deepexi-service-a-provider instantiated a LoadBalancer: DynamicServerListLoadBalancer:{NFLoadBalancer:name=deepexi-service-a-provider,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:null
+2019-06-23 22:32:53.847 INFO  [nio-8083-exec-1] c.n.l.DynamicServerListLoadBalancer: - Using serverListUpdater PollingServerListUpdater
+2019-06-23 22:32:53.849 INFO  [nio-8083-exec-1] c.n.l.DynamicServerListLoadBalancer: - DynamicServerListLoadBalancer for client deepexi-service-a-provider initialized: DynamicServerListLoadBalancer:{NFLoadBalancer:name=deepexi-service-a-provider,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:org.springframework.cloud.netflix.ribbon.eureka.DomainExtractingServerList@40e5c2bb
+2019-06-23 22:37:03.967 INFO  [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver: - Resolving eureka endpoints via configuration
+2019-06-23 22:38:54.865 INFO  [erListUpdater-0] c.n.config.ChainedDynamicProperty: - Flipping property: deepexi-service-a-provider.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2019-06-23 22:41:18.537 INFO  [nio-8083-exec-6] c.s.d.controller.FrignTestController: - 远程调用成功: Hello World!!
+2019-06-23 22:42:03.969 INFO  [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver: - Resolving eureka endpoints via configuration

@@ -17,6 +17,8 @@
     <modules>
         <module>SpringCloudCommon</module>
         <module>SpringCloudEureka</module>
+        <module>SpringCloudServices</module>
+        <module>SpringCloudService</module>
     </modules>
 
 
